@@ -6,7 +6,7 @@ let hours = 0;
 
 
 
-function start() {
+function start() { 
     if (!isRunning) {
         timer = setInterval(updateDisplay, 1000);
         isRunning = true;
